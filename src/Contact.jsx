@@ -5,8 +5,9 @@ import Header from './Header'
 function Contact() {
   return (
     <>
-    <Header/>
+    
     <div className='container mt-5 '>
+    <Header/>
         <div className='row'>
             <div className='col-md-6'>
                 <p>Why you Contact me ?</p>
