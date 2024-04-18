@@ -1,0 +1,23 @@
+.font{
+    height: auto;
+    width: 100%;
+    background-color: aliceblue;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(95, 95, 95);
+
+}
+.font .fontsize{
+    margin: 20px;
+    margin-top: 20px;
+
+}
+.fontsize :hover{
+    color: rgb(172, 172, 255);
+    background-color: rgb(240, 240, 240);
+}
+.para{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}

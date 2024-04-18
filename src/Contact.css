@@ -1,0 +1,58 @@
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: aliceblue;
+    position: relative;
+}
+.foter img{
+    margin-left: 80px;
+    height: 40px;
+    width: 40px;
+    margin-top: 47px;
+
+}
+
+.foter img :hover{
+    background-color: blue;
+}
+.footer h5{
+    margin-left: 80px;
+}
+.footer h4{
+    margin-left: 80px;
+    color: red;
+}
+.iron{
+    position: absolute;
+    margin-left: 1070px;
+    margin-top: -200px;
+}
+.face :hover{
+    background-color: green;
+}
+.lastpart{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(90, 90, 90);
+    text-align: center;
+    margin-top: 5px;
+}
+.lastpart h5{
+    margin-bottom: 5px;
+    color: black;
+    align-items: center;
+}
+
+@media screen and (max-width:767px) {
+    .iron{
+        visibility: hidden;
+    }
+}
+@media screen  and (min-width:767px) and (max-width:1023px){
+    .iron img{
+        visibility: hidden;
+    }
+    .nav-item a{
+        margin-right: -50px;
+    }
+}

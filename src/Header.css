@@ -1,0 +1,56 @@
+.logo{
+    height: 50px;
+    width: 100px;
+}
+.navbar-nav li a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    
+}
+.navbar-nav li a :hover{
+    color: blue;
+    background-color: aqua;
+    transition: all ease-in .5s;
+    border-radius: 5px;
+}
+.navbar-nav li a .active{
+    color: red;
+}
+.welcome{
+    color: red;
+    text-align: center;
+    
+}
+.head{
+    text-transform: capitalize;
+}
+.some{
+    color: rgb(75, 74, 74);
+}
+.active{
+    color: red;
+}
+@media screen and (max-width:767px) {
+    .navbar-nav li a{
+        flex-direction: column;
+    }
+    .myfoot{
+        width: 500px;
+    }
+    .fontsize{
+        font-size: 80px;
+        color: red;
+    }
+}
+@media screen  and (min-width:767px) and (max-width:1023px){
+    .myfoot{
+        width: 800px;
+    }
+}
+@media screen and (min-width:1024px){
+    .myfoot{
+        width: 1200px;
+    }
+}
+    
